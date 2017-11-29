@@ -56,12 +56,32 @@ nav span {
 div {
   border: 1px solid black;
 }
-.news{
+.news,
+.story{
   display: block;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 .underimage{
   display:block;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
-.story{
-  display:block;
+.underimage.mother{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+.underimage.earth{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+.underimage.cameras{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+.underimage.cats{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+.story.main{
+  font-size: 40px;
 }
