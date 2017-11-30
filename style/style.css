@@ -122,6 +122,29 @@ padding: 10px 0px;
   font-weight: bold;
   text-align: center;
 }
-.newsbites{
-
+.footer{
+  display: flex;
+  background-color:MediumAquamarine;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height:325px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+.logo span{
+  color:white;
+  border-right: 2px solid white;
+  display: flex;
+  padding: 0px 25px 0px 0px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer p{
+  display:block;
+}
+.line{
+  display:flex;
 }
