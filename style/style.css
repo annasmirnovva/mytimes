@@ -1,5 +1,5 @@
-div {
-  border: 1px solid black;
+body{
+  margins: 0px;
 }
 .header {
   display:flex;
@@ -32,14 +32,15 @@ nav span {
 }
 .container  {
   display: flex;
-  border: 1px solid black;
   justify-content: space-between;
 }
 .column.large {
   display: flex;
   max-width: 630px;
-  flex-direction: column;
   margin: 30px 15px 30px 0px;
+  justify-content:center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .column.medium {
   display: flex;
@@ -52,9 +53,6 @@ nav span {
   max-width: 240px;
   flex-direction: column;
   margin: 30px 30px 30px 15px;
-}
-div {
-  border: 1px solid black;
 }
 .news,
 .story{
@@ -69,9 +67,26 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 300px;
+  text-align: center;
+  justify-content:center;
+  display: flex;
+  flex-direction: column;
+}
+.clusterone,
+.clustertwo{
+  display: block;
+  width: 300px;
+  text-align: left;
+  align-items: center;
+  justify-content:center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .underimage.mother{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  vertical-align:middle;
 }
 .underimage.earth{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
@@ -84,4 +99,7 @@ div {
 }
 .story.main{
   font-size: 40px;
+}
+.newsstories{
+  display: flex;
 }
